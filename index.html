@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISTQB CTFL v4.0 Certification Training for Fresh Graduates | Greens Technologies</title>
+  <meta name="description"
+    content="Master ISTQB Certified Tester Foundation Level (CTFL v4.0) in 40 hours. Designed specifically for fresh graduates with 100% first-attempt pass guarantee, mock exams, and placement support.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/greens_logo_icon.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3.3 CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Top Urgency / Batch Announcement Strip -->
+  <div class="top-announcement text-center">
+    <div class="container d-flex flex-wrap justify-content-center align-items-center gap-2">
+      <span class="badge"><i class="bi bi-stars"></i> NEW BATCH ANNOUNCEMENT</span>
+      <span>Next 40-Hour Fresher Cohort starts this Monday! <strong>Only 6 seats remaining</strong> for first-attempt
+        pass mentorship.</span>
+      <a href="#enroll-section" class="text-white text-decoration-underline fw-semibold ms-1">Claim Fresher Discount
+        &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+    <div class="container">
+      <!-- Logo in Navbar as requested -->
+      <a class="brand-wrapper" href="https://greenstech.in/">
+        <img src="assets/greens_logo_badge.png" alt="Greens Technologies Logo" class="brand-logo-img">
+        <div>
+          <div class="brand-title">Greens Technologies</div>
+          <div class="brand-subtitle"><i class="bi bi-shield-check text-success"></i> ISTQB Training Partner</div>
+        </div>
+      </a>
+
+      <!-- Navbar Toggler for Mobile -->
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-2 text-white"></i>
+      </button>
+
+      <!-- Nav Items: Strict adherence to user instruction: "Let the navbar have only one option called home which will be redirected to https://greenstech.in/" -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-link-home" href="https://greenstech.in/">
+              <i class="bi bi-house-door-fill"></i> Home
+            </a>
+          </li>
+        </ul>
+
+        <!-- Right Action Pill & Enrollment CTA -->
+        <div class="d-flex align-items-center gap-3">
+          <a href="tel:+918939915577"
+            class="d-none d-xl-flex align-items-center gap-2 text-decoration-none text-white fw-semibold small">
+            <span class="badge border p-2 rounded-circle" style="background: rgba(200, 241, 105, 0.2); border-color: rgba(200, 241, 105, 0.4) !important;"><i
+                class="bi bi-telephone-fill" style="color: var(--brand-lime);"></i></span>
+            <span>+91 89399 15577</span>
+          </a>
+          <button class="btn btn-primary-custom btn-sm py-2 px-3" data-bs-toggle="modal" data-bs-target="#enrollModal">
+            <i class="bi bi-mortarboard-fill"></i> Enroll Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       Hero Section: High-Impact First Impression for Fresh Graduates
+       ========================================================================== -->
+  <section class="hero-section">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+
+    <div class="container position-relative z-1">
+      <div class="row align-items-center g-5">
+        <!-- Left Hero Content -->
+        <div class="col-lg-7">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>ISTQB® Certified Tester Foundation Level (CTFL v4.0)</span>
+          </div>
+
+          <h1 class="hero-title">
+            Launch Your High-Paying QA Career with <span class="text-gradient">ISTQB CTFL</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            The globally recognized software testing credential valid in 130+ countries. Designed specifically for
+            <strong>Fresh Graduates (2023 - 2026 batches)</strong> to bypass recruiter screening filters, master
+            industry defect workflows, and crack the exam on the very first attempt.
+          </p>
+
+          <!-- PROMINENT PRE-REQUISITE CALLOUT -->
+          <div class="prerequisite-card">
+            <div class="d-flex align-items-center gap-2">
+              <span class="prereq-badge"><i class="bi bi-info-circle-fill"></i> Course Pre-requisite</span>
+              <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Freshers
+                Welcome</span>
+            </div>
+            <p class="prereq-text mt-1">
+              <strong>Knowledge of manual testing will be an added advantage.</strong>
+            </p>
+            <div class="prereq-bonus">
+              <i class="bi bi-gift-fill text-warning me-1"></i> <em>Zero testing background?</em> Don't worry! We
+              include a complimentary <strong>5-Hour Manual Testing Foundation Primer</strong> before Chapter 1 to bring
+              you up to speed.
+            </div>
+          </div>
+
+          <!-- Hero CTAs -->
+          <div class="d-flex flex-wrap gap-3 hero-cta-group mb-4">
+            <a href="#enroll-section" class="btn btn-primary-custom">
+              <i class="bi bi-lightning-charge-fill"></i> Secure Next Batch Seat
+            </a>
+            <button class="btn btn-outline-custom" data-bs-toggle="modal" data-bs-target="#curriculumModal">
+              <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CTFL v4.0 Syllabus
+            </button>
+          </div>
+
+          <!-- Quick Trust Bullets -->
+          <div class="d-flex flex-wrap gap-3 text-secondary small">
+            <div class="d-flex align-items-center gap-1 text-light">
+              <i class="bi bi-clock-history text-success"></i> <strong>40 Hours</strong> Intensive Mentorship
+            </div>
+            <div class="d-flex align-items-center gap-1 text-light">
+              <i class="bi bi-patch-check-fill text-warning"></i> <strong>98.6%</strong> First-Attempt Pass Rate
+            </div>
+            <div class="d-flex align-items-center gap-1 text-light">
+              <i class="bi bi-infinity text-info"></i> <strong>Lifetime</strong> Credential Validity
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual: Interactive Certification Card Preview -->
+        <div class="col-lg-5">
+          <div class="hero-card-preview">
+            <div class="cert-header">
+              <div class="d-flex align-items-center gap-3">
+                <div class="cert-stamp">
+                  <i class="bi bi-award-fill"></i>
+                </div>
+                <div>
+                  <h6 class="text-white mb-0 fw-bold">ISTQB® Official Standard</h6>
+                  <span class="text-muted small">Global IT Credential</span>
+                </div>
+              </div>
+              <span class="cert-pill">CTFL v4.0 Aligned</span>
+            </div>
+
+            <div class="text-center py-3">
+              <div class="text-uppercase text-secondary fw-semibold small tracking-wide">Candidate Qualification</div>
+              <h4 class="text-white fw-bold mt-1 mb-2">Certified Tester Foundation Level</h4>
+              <p class="text-light small mb-0 opacity-75">Recognized by TCS, Cognizant, Infosys, Wipro, Accenture &
+                10,000+ MNCs</p>
+            </div>
+
+            <div class="cert-stats-grid">
+              <div class="cert-stat-box">
+                <div class="label">Course Duration</div>
+                <div class="value text-success"><i class="bi bi-hourglass-split"></i> 40 Hours</div>
+              </div>
+              <div class="cert-stat-box">
+                <div class="label">Exam Pass Mark</div>
+                <div class="value text-warning"><i class="bi bi-check2-circle"></i> 65% (26/40)</div>
+              </div>
+              <div class="cert-stat-box">
+                <div class="label">Practice Bank</div>
+                <div class="value text-info"><i class="bi bi-collection"></i> 500+ MCQs</div>
+              </div>
+              <div class="cert-stat-box">
+                <div class="label">Mock Tests</div>
+                <div class="value text-light"><i class="bi bi-speedometer2"></i> 5 Full Timed</div>
+              </div>
+            </div>
+
+            <!-- Live Countdown inside Card -->
+            <div class="bg-black bg-opacity-25 rounded-3 p-3 text-center border border-white border-opacity-10 mt-3">
+              <div class="small text-secondary mb-2 fw-semibold"><i class="bi bi-alarm-fill text-warning me-1"></i> Next
+                Cohort Starts In:</div>
+              <div class="d-flex justify-content-center gap-3">
+                <div class="text-center">
+                  <span id="count-days" class="fw-bold fs-5 text-white">03</span>
+                  <span class="d-block text-muted" style="font-size: 0.65rem;">DAYS</span>
+                </div>
+                <span class="text-muted fs-5">:</span>
+                <div class="text-center">
+                  <span id="count-hours" class="fw-bold fs-5 text-white">14</span>
+                  <span class="d-block text-muted" style="font-size: 0.65rem;">HRS</span>
+                </div>
+                <span class="text-muted fs-5">:</span>
+                <div class="text-center">
+                  <span id="count-mins" class="fw-bold fs-5 text-white">28</span>
+                  <span class="d-block text-muted" style="font-size: 0.65rem;">MINS</span>
+                </div>
+                <span class="text-muted fs-5">:</span>
+                <div class="text-center">
+                  <span id="count-secs" class="fw-bold fs-5 text-white text-warning">45</span>
+                  <span class="d-block text-muted" style="font-size: 0.65rem;">SECS</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-cert-badge">
+              <i class="bi bi-patch-check-fill"></i>
+              <span>100% Exam Pass Mentorship Guaranteed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Key Stats Strip
+       ========================================================================== -->
+  <section class="stats-strip">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-icon-wrap">
+              <i class="bi bi-clock"></i>
+            </div>
+            <div>
+              <div class="stat-number">40 Hrs</div>
+              <p class="stat-title">Intensive Masterclass (30-45 hr optimal range)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-icon-wrap">
+              <i class="bi bi-trophy"></i>
+            </div>
+            <div>
+              <div class="stat-number">98.6%</div>
+              <p class="stat-title">First-Attempt Pass Rate for Freshers</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-icon-wrap">
+              <i class="bi bi-person-check"></i>
+            </div>
+            <div>
+              <div class="stat-number">14,500+</div>
+              <p class="stat-title">Freshers Placed in Top QA Teams</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="stat-item">
+            <div class="stat-icon-wrap">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div>
+              <div class="stat-number">130+</div>
+              <p class="stat-title">Countries Recognize Your Certificate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Hiring Partners Ticker
+       ========================================================================== -->
+  <section class="partners-section">
+    <div class="container">
+      <div class="partners-heading">Top MNCs Actively Hiring ISTQB CTFL Certified Freshers</div>
+      <div class="mnc-logos-grid">
+        <div class="mnc-logo-card" title="Tata Consultancy Services">
+          <img src="assets/hiring/tcs.svg" alt="Tata Consultancy Services (TCS)" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="Cognizant">
+          <img src="assets/hiring/cognizant.svg" alt="Cognizant (CTS)" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="Infosys">
+          <img src="assets/hiring/infosys.svg" alt="Infosys" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="Wipro Technologies">
+          <img src="assets/hiring/wipro.svg" alt="Wipro Technologies" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="Accenture">
+          <img src="assets/hiring/accenture.svg" alt="Accenture" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="Capgemini">
+          <img src="assets/hiring/capgemini.png" alt="Capgemini" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="HCLTech">
+          <img src="assets/hiring/hcltech.svg" alt="HCLTech" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="LTIMindtree">
+          <img src="assets/hiring/ltimindtree.svg" alt="LTIMindtree" class="mnc-logo-img">
+        </div>
+        <div class="mnc-logo-card" title="IBM India">
+          <img src="assets/hiring/ibm.png" alt="IBM India" class="mnc-logo-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Why Freshers Need ISTQB CTFL: Side-by-Side Reality Check
+       ========================================================================== -->
+  <section class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Career Acceleration</span>
+        <h2 class="section-title">Why Freshers with ISTQB CTFL Get Hired 4x Faster</h2>
+        <p class="section-desc">
+          In a hyper-competitive job market with thousands of CS/IT graduates applying for entry-level QA jobs, ISTQB
+          CTFL gives you an immediate competitive edge over non-certified candidates.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6">
+          <div class="card h-100 border-0 shadow-sm p-4 rounded-4 comp-col-bad">
+            <div class="d-flex align-items-center gap-3 mb-3 text-danger">
+              <i class="bi bi-x-circle-fill fs-2"></i>
+              <div>
+                <h4 class="fw-bold mb-0 text-dark">Average Fresh Graduate</h4>
+                <small class="text-muted">Without ISTQB Certification</small>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <strong>Resume Shortlisting: Only 12%</strong>
+                <p class="text-muted small mb-0">Resumes get lost in ATS keywords filters looking for certified testing
+                  talent.</p>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <strong>Starting Salary: ₹3.0 - ₹3.6 LPA</strong>
+                <p class="text-muted small mb-0">Offered standard entry-level trainee packages with slow promotion
+                  cycles.</p>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <strong>Vague Testing Vocabulary</strong>
+                <p class="text-muted small mb-0">Struggles to clearly differentiate between Error, Defect, and Failure
+                  in technical rounds.</p>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <strong>No Structured Test Design</strong>
+                <p class="text-muted small mb-0">Relying on ad-hoc testing and guessing test cases without mathematical
+                  boundary value rigor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card h-100 border-success border-2 shadow-lg p-4 rounded-4 comp-col-good">
+            <span class="comp-badge-top"><i class="bi bi-award-fill"></i> GREENS CERTIFIED ADVANTAGE</span>
+            <div class="d-flex align-items-center gap-3 mb-3 text-success">
+              <i class="bi bi-check-circle-fill fs-2"></i>
+              <div>
+                <h4 class="fw-bold mb-0 text-dark">ISTQB CTFL Certified Graduate</h4>
+                <small class="text-success fw-bold">Trained by Greens Technologies (40 Hours)</small>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-check-circle-fill text-success"></i>
+              <div>
+                <strong>Resume Shortlisting: 85%+ Direct Calls</strong>
+                <p class="text-muted small mb-0">Recognized international credential verified on LinkedIn & IT recruiter
+                  job portals.</p>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-check-circle-fill text-success"></i>
+              <div>
+                <strong>Starting Salary: ₹5.5 - ₹7.5 LPA</strong>
+                <p class="text-muted small mb-0">Qualifies directly for QA Analyst and Associate Software Development
+                  Engineer in Test (SDET) tracks.</p>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-check-circle-fill text-success"></i>
+              <div>
+                <strong>Global Testing Standardization</strong>
+                <p class="text-muted small mb-0">Fluent in ISO/IEC/IEEE 29119 standards, SDLC levels, risk-based
+                  testing, and Agile quality concepts.</p>
+              </div>
+            </div>
+            <div class="comp-row">
+              <i class="bi bi-check-circle-fill text-success"></i>
+              <div>
+                <strong>Mathematical Test Design Mastery</strong>
+                <p class="text-muted small mb-0">Calculates exact Boundary Value Analysis (BVA), Equivalence
+                  Partitioning (EP), and Decision Tables with confidence.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Curriculum Section: 40-Hour CTFL v4.0 Masterclass Breakdown
+       ========================================================================== -->
+  <section class="section-padding bg-white" id="curriculum">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Rigorous 40-Hour Curriculum</span>
+        <h2 class="section-title">Designed for Fresh Graduates: 30 to 45 Hours of Mastery</h2>
+        <p class="section-desc">
+          Aligned 100% with the official <strong>ISTQB CTFL Syllabus v4.0</strong>. We combine deep theoretical
+          conceptual clarity with hands-on scenario problem-solving and full-length exam simulations.
+        </p>
+        <div class="mt-3">
+          <span class="badge bg-warning-subtle text-dark border border-warning px-3 py-2 rounded-pill fw-semibold">
+            <i class="bi bi-info-circle-fill text-warning me-1"></i> Pre-requisite Reminder: Knowledge of manual testing
+            will be an added advantage.
+          </span>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+
+          <!-- Chapter 1 -->
+          <div class="curriculum-card active">
+            <div class="chapter-header">
+              <div class="d-flex align-items-center gap-3">
+                <span class="chapter-badge">Chapter 1</span>
+                <div>
+                  <h5 class="mb-0 fw-bold">Fundamentals of Testing</h5>
+                  <small class="text-muted">Core concepts, objectives, 7 testing principles & psychology</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <span class="chapter-hours"><i class="bi bi-clock"></i> 6 Hours</span>
+                <span class="chapter-weight"><i class="bi bi-pie-chart"></i> ~20% Exam</span>
+                <i class="bi bi-chevron-down ms-2 rotate-icon transition-all"></i>
+              </div>
+            </div>
+            <div class="chapter-content">
+              <p class="small text-muted mt-3 mb-2">Cognitive Levels: K1 (Remember), K2 (Understand)</p>
+              <ul class="topic-list">
+                <li>What is Testing? Objectives, Testing vs. Debugging, Quality Assurance (QA) vs. Quality Control (QC)
+                </li>
+                <li>Why is Testing Necessary? Errors, Defects, Failures, and Root Causes</li>
+                <li>The 7 Universal Testing Principles (Defect clustering, Exhaustive testing is impossible, Pesticide
+                  paradox)</li>
+                <li>Test Activities & Tasks: Planning, Analysis, Design, Implementation, Execution, and Completion</li>
+                <li>Roles in Testing: Test Management role vs. Testing role & Tester Independence advantages</li>
+                <li>Essential Tester Skills: Communication, active listening, critical thinking, and whole-team quality
+                  mindset</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Chapter 2 -->
+          <div class="curriculum-card">
+            <div class="chapter-header">
+              <div class="d-flex align-items-center gap-3">
+                <span class="chapter-badge">Chapter 2</span>
+                <div>
+                  <h5 class="mb-0 fw-bold">Testing Throughout the SDLC</h5>
+                  <small class="text-muted">Sequential vs. Agile lifecycles, test levels & test types</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <span class="chapter-hours"><i class="bi bi-clock"></i> 5 Hours</span>
+                <span class="chapter-weight"><i class="bi bi-pie-chart"></i> ~15% Exam</span>
+                <i class="bi bi-chevron-down ms-2 rotate-icon transition-all"></i>
+              </div>
+            </div>
+            <div class="chapter-content">
+              <p class="small text-muted mt-3 mb-2">Cognitive Levels: K1, K2</p>
+              <ul class="topic-list">
+                <li>Testing in Context of SDLC: Waterfall, V-Model, Iterative/Incremental, Agile, and DevOps</li>
+                <li>Test Levels in Practice: Component (Unit), Integration, System, and Acceptance Testing (UAT,
+                  Alpha/Beta)</li>
+                <li>Test Types: Functional Testing, Non-Functional Testing (Performance, Usability, Security), and
+                  White-Box Testing</li>
+                <li>Confirmation Testing (Retesting) vs. Regression Testing strategies</li>
+                <li>Maintenance Testing: Triggers, modifications, migrations, retirement & Impact Analysis</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Chapter 3 -->
+          <div class="curriculum-card">
+            <div class="chapter-header">
+              <div class="d-flex align-items-center gap-3">
+                <span class="chapter-badge">Chapter 3</span>
+                <div>
+                  <h5 class="mb-0 fw-bold">Static Testing</h5>
+                  <small class="text-muted">Early bug prevention, review process & formal inspections</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <span class="chapter-hours"><i class="bi bi-clock"></i> 4 Hours</span>
+                <span class="chapter-weight"><i class="bi bi-pie-chart"></i> ~10% Exam</span>
+                <i class="bi bi-chevron-down ms-2 rotate-icon transition-all"></i>
+              </div>
+            </div>
+            <div class="chapter-content">
+              <p class="small text-muted mt-3 mb-2">Cognitive Levels: K1, K2</p>
+              <ul class="topic-list">
+                <li>Static vs. Dynamic Testing: Economic value of discovering defects before code compilation</li>
+                <li>Work Products reviewable statically: User stories, requirements specs, architectural designs, code
+                </li>
+                <li>Formal Review Process: Planning, initiate review, individual review, issue communication, and
+                  reporting</li>
+                <li>Review Types Compared: Informal Review, Walkthrough, Technical Review, and Formal Inspection</li>
+                <li>Human Factors & Psychological Success Factors in reviews (constructive feedback & management
+                  support)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Chapter 4 -->
+          <div class="curriculum-card">
+            <div class="chapter-header">
+              <div class="d-flex align-items-center gap-3">
+                <span class="chapter-badge bg-primary-subtle text-primary">Chapter 4</span>
+                <div>
+                  <h5 class="mb-0 fw-bold">Test Analysis & Design Techniques <span
+                      class="badge bg-danger small ms-1">Heaviest Weight</span></h5>
+                  <small class="text-muted">Black-box (BVA, EP, Decision Tables), White-box & Experience-based</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <span class="chapter-hours"><i class="bi bi-clock"></i> 10 Hours</span>
+                <span class="chapter-weight bg-danger-subtle text-danger"><i class="bi bi-pie-chart"></i> ~28%
+                  Exam</span>
+                <i class="bi bi-chevron-down ms-2 rotate-icon transition-all"></i>
+              </div>
+            </div>
+            <div class="chapter-content">
+              <p class="small text-muted mt-3 mb-2">Cognitive Levels: K2, K3 (Heavy Application and Numerical Problem
+                Solving!)</p>
+              <ul class="topic-list">
+                <li><strong>Equivalence Partitioning (EP):</strong> Identifying valid and invalid partitions with
+                  mathematical precision</li>
+                <li><strong>Boundary Value Analysis (BVA):</strong> 2-value vs. 3-value boundary test design with
+                  practical drills</li>
+                <li><strong>Decision Table Testing:</strong> Complex business rules, condition combinations, and
+                  expected actions</li>
+                <li><strong>State Transition Testing:</strong> State transition diagrams, valid vs. invalid transitions,
+                  0-switch coverage</li>
+                <li><strong>White-Box Techniques:</strong> Statement coverage and Branch/Decision coverage calculations
+                </li>
+                <li><strong>Experience-Based Techniques:</strong> Error Guessing, Exploratory Testing with charters, and
+                  Checklist-based testing</li>
+                <li><strong>Collaboration-Based Testing:</strong> Acceptance Test-Driven Development (ATDD) & 3 Amigos
+                  workshop</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Chapter 5 -->
+          <div class="curriculum-card">
+            <div class="chapter-header">
+              <div class="d-flex align-items-center gap-3">
+                <span class="chapter-badge">Chapter 5</span>
+                <div>
+                  <h5 class="mb-0 fw-bold">Managing Test Activities & Defect Tracking</h5>
+                  <small class="text-muted">Test planning, risk-based testing, metrics & defect reporting</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <span class="chapter-hours"><i class="bi bi-clock"></i> 8 Hours</span>
+                <span class="chapter-weight"><i class="bi bi-pie-chart"></i> ~22% Exam</span>
+                <i class="bi bi-chevron-down ms-2 rotate-icon transition-all"></i>
+              </div>
+            </div>
+            <div class="chapter-content">
+              <p class="small text-muted mt-3 mb-2">Cognitive Levels: K1, K2, K3</p>
+              <ul class="topic-list">
+                <li>Test Planning & Estimation: Work breakdown structure, Wideband Delphi, and metrics-based estimation
+                </li>
+                <li>Risk Management: Project Risks vs. Product Risks; Risk Likelihood, Impact & Risk-Based Testing (RBT)
+                </li>
+                <li>Test Monitoring & Control: Key test metrics, burn-down charts, and Entry & Exit criteria evaluation
+                </li>
+                <li>Configuration Management of testware and test objects</li>
+                <li><strong>Defect Management in Jira:</strong> Defect lifecycle, defect logging standards, Severity vs.
+                  Priority matrix</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Chapter 6 -->
+          <div class="curriculum-card">
+            <div class="chapter-header">
+              <div class="d-flex align-items-center gap-3">
+                <span class="chapter-badge">Chapter 6</span>
+                <div>
+                  <h5 class="mb-0 fw-bold">Test Tools & Automation Primer</h5>
+                  <small class="text-muted">Tool classifications, benefits, risks & pilot rollouts</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <span class="chapter-hours"><i class="bi bi-clock"></i> 3 Hours</span>
+                <span class="chapter-weight"><i class="bi bi-pie-chart"></i> ~8% Exam</span>
+                <i class="bi bi-chevron-down ms-2 rotate-icon transition-all"></i>
+              </div>
+            </div>
+            <div class="chapter-content">
+              <p class="small text-muted mt-3 mb-2">Cognitive Levels: K1, K2</p>
+              <ul class="topic-list">
+                <li>Classification of Testing Tools (Management, Static, Test Execution, Non-functional
+                  performance/security)</li>
+                <li>Benefits vs. Potential Risks of Test Automation (Over-reliance, maintenance overhead, false
+                  confidence)</li>
+                <li>Special considerations for Test Execution Tools and Test Management Tools</li>
+                <li>Guidelines for tool selection, Proof of Concept (PoC), and launching pilot projects in organizations
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bonus Exam Prep Module -->
+          <div class="curriculum-card border-success">
+            <div class="chapter-header bg-success-subtle">
+              <div class="d-flex align-items-center gap-3">
+                <span class="chapter-badge bg-success text-white">Bonus Module</span>
+                <div>
+                  <h5 class="mb-0 fw-bold text-success-emphasis">5 Full-Length Timed Mock Exams & Interview Bootcamp
+                  </h5>
+                  <small class="text-muted">Official exam simulator + 1-on-1 question rationale review</small>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <span class="chapter-hours bg-white text-success"><i class="bi bi-clock"></i> 4 Hours</span>
+                <span class="chapter-weight bg-white text-dark"><i class="bi bi-award"></i> Exam Guarantee</span>
+                <i class="bi bi-chevron-down ms-2 rotate-icon transition-all"></i>
+              </div>
+            </div>
+            <div class="chapter-content">
+              <p class="small text-muted mt-3 mb-2">Hands-on Exam Conditioning & Placement Prep</p>
+              <ul class="topic-list">
+                <li>5 Full-length realistic 40-question mock exams matching Pearson VUE / ATSQA environment</li>
+                <li>Question-by-question post-test review: Why distractors are wrong and how to spot negative wording
+                </li>
+                <li>ISTQB official glossary flashcards (500+ standard definitions)</li>
+                <li>Fresher QA resume makeover with ISTQB credential verification badge & LinkedIn profile optimization
+                </li>
+                <li>Top 50 ISTQB technical interview questions asked at TCS, Cognizant, and Infosys</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Total Hours Bar -->
+          <div class="p-3 bg-light rounded-3 d-flex flex-wrap justify-content-between align-items-center mt-4 border">
+            <div>
+              <span class="fw-bold text-dark fs-6"><i class="bi bi-check2-all text-success fs-5 me-1"></i> Total
+                Comprehensive Duration: 40 Hours</span>
+              <span class="text-muted small d-block">Perfect 30 - 45 hour sweet spot recommended for fresh
+                graduates</span>
+            </div>
+            <button class="btn btn-outline-dark btn-sm fw-semibold" data-bs-toggle="modal"
+              data-bs-target="#curriculumModal">
+              <i class="bi bi-download me-1"></i> Get Full PDF Brochure
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive ISTQB CTFL Mini-Exam Simulator (Quiz)
+       ========================================================================== -->
+  <section class="section-padding bg-light" id="quiz-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Interactive Exam Simulator</span>
+        <h2 class="section-title">Test Your ISTQB Readiness Right Now</h2>
+        <p class="section-desc">
+          Try this interactive 5-question sample quiz featuring real scenario-based questions from the latest CTFL v4.0
+          syllabus. Can you reach the 65% passing score?
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="quiz-container">
+
+            <!-- Active Quiz View -->
+            <div id="quiz-active-view">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <span id="quiz-chapter-badge"
+                  class="badge bg-secondary-subtle text-dark border small fw-semibold">Chapter 1: Fundamentals</span>
+                <span id="quiz-level-badge" class="quiz-badge">K1 (Remember)</span>
+              </div>
+
+              <!-- Progress bar -->
+              <div class="progress mb-4" style="height: 6px;">
+                <div id="quiz-progress-bar" class="progress-bar bg-success" role="progressbar" style="width: 20%;">
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span id="quiz-q-num" class="text-muted small fw-bold text-uppercase">Question 1 of 5</span>
+                <span class="badge bg-light text-dark border"><i class="bi bi-check-all text-success"></i> 1 Mark (No
+                  Negative Marking)</span>
+              </div>
+
+              <h5 id="quiz-question-text" class="fw-bold text-dark mb-4">
+                Loading practice question...
+              </h5>
+
+              <div id="quiz-options-container" class="mb-3">
+                <!-- Dynamically rendered via JS -->
+              </div>
+
+              <div id="quiz-feedback" class="quiz-feedback-box">
+                <!-- Feedback appears here -->
+              </div>
+
+              <div class="d-flex justify-content-end mt-4">
+                <button id="quiz-next-btn" class="btn btn-primary-custom px-4" disabled>
+                  Next Question <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Quiz Result View (Hidden Initially) -->
+            <div id="quiz-result-view" class="text-center py-4 d-none">
+              <div class="mb-3">
+                <div class="rounded-circle bg-success-subtle text-success d-inline-flex p-3 fs-1">
+                  <i class="bi bi-patch-check-fill"></i>
+                </div>
+              </div>
+              <h3 class="fw-bold mb-1">Practice Quiz Completed!</h3>
+              <p class="text-muted">Here is your ISTQB CTFL diagnostic evaluation:</p>
+
+              <div class="display-4 fw-bold text-success my-3" id="quiz-final-score">
+                4 / 5 (80%)
+              </div>
+
+              <div id="quiz-final-message" class="my-4">
+                <!-- Result message and congratulations injected here -->
+              </div>
+
+              <div class="d-flex justify-content-center gap-3">
+                <button id="quiz-restart-btn" class="btn btn-outline-secondary">
+                  <i class="bi bi-arrow-repeat me-1"></i> Retake Practice Quiz
+                </button>
+                <a href="#enroll-section" class="btn btn-primary-custom">
+                  <i class="bi bi-mortarboard-fill me-1"></i> Enroll in Complete 40-Hr Course
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive Fresher Readiness & Salary Potential Calculator
+       ========================================================================== -->
+  <section class="section-padding bg-dark text-white position-relative overflow-hidden">
+    <div class="container position-relative z-1">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="badge bg-success-subtle text-success px-3 py-2 rounded-pill fw-bold mb-3">
+            <i class="bi bi-calculator"></i> CAREER ESTIMATOR
+          </span>
+          <h2 class="display-6 fw-bold mb-3">Fresh Graduate Pass Probability & Salary Estimator</h2>
+          <h2 class="display-6 fw-bold mb-3">Fresh Graduate Exam Score & Salary Estimator</h2>
+          <p class="text-secondary mb-4">
+            See how your background and testing familiarity directly impact your first-attempt exam clearance rate and
+            prospective starting QA compensation.
+            See how your background and weekly study hours directly impact your projected ISTQB CTFL exam score (minimum
+            75%+ target) and starting QA package.
+          </p>
+
+          <div class="calculator-card">
+            <div class="mb-4">
+              <label class="form-label fw-bold text-white small text-uppercase">1. Prior Manual Testing
+                Familiarity:</label>
+              <select id="calc-knowledge" class="form-select bg-dark text-white border-secondary">
+                <option value="none">No Prior Testing Knowledge (Absolute Beginner)</option>
+                <option value="basic" selected>Basic College / Academic Manual Testing (Added Advantage!)</option>
+                <option value="strong">Hands-on Internship / Project Testing Experience</option>
+              </select>
+              <div class="form-text text-light opacity-75 small mt-1">
+                <i class="bi bi-info-circle text-warning"></i> Remember: Manual testing knowledge is an added advantage,
+                but our 5-hr primer covers beginners completely!
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <label class="form-label fw-bold text-white small text-uppercase mb-0">2. Dedicated Study Time Per
+                  Week:</label>
+                <span id="calc-hours-val" class="badge bg-success fs-6">10 hrs/week</span>
+              </div>
+              <input type="range" class="form-range calc-range" min="4" max="25" step="1" value="10" id="calc-hours">
+              <div class="d-flex justify-content-between text-muted" style="font-size: 0.75rem;">
+                <span>4 hrs (Casual)</span>
+                <span>12 hrs (Recommended)</span>
+                <span>25 hrs (Super Fast-Track)</span>
+              </div>
+            </div>
+
+            <div class="p-3 bg-black bg-opacity-30 rounded-3 border border-white border-opacity-10">
+              <div class="small text-secondary mb-1">Recommended Batch Track:</div>
+              <div id="calc-track-rec" class="fw-bold text-warning fs-6">4-Week Fast Track (Weekday Batch)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <div class="p-5 rounded-4 bg-gradient"
+            style="background: rgba(16, 56, 47, 0.4); border: 1px solid rgba(52, 211, 153, 0.3);">
+            <div class="probability-meter-circle">
+              <span id="calc-probability" class="display-5 fw-bold text-white">86%</span>
+              <span class="text-white fw-bold" style="font-size: 0.7rem; letter-spacing: 0.06em;">ESTIMATED SCORE</span>
+            </div>
+
+            <h4 class="text-white fw-bold mb-1">High First-Attempt Clearance Likelihood</h4>
+            <p class="text-white small mb-4">Based on historical pass data of 14,000+ Greens Technologies freshers.</p>
+            <h4 class="text-white fw-bold mb-1">Target Score: 75% to 99% Mastery</h4>
+
+
+            <div class="row g-3 text-start">
+              <div class="col-sm-6">
+                <div class="bg-black bg-opacity-30 p-3 rounded-3 border border-white border-opacity-10">
+                  <div class="text-white small fw-semibold">Projected Fresher Salary</div>
+                  <div id="calc-salary-range" class="fw-bold text-success fs-5">₹4.8L - ₹7.3L / yr</div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="bg-black bg-opacity-30 p-3 rounded-3 border border-white border-opacity-10">
+                  <div class="text-white small fw-semibold">MNC Interview Call Rate</div>
+                  <div class="fw-bold text-info fs-5">85% Within 30 Days</div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#enroll-section" class="btn btn-primary-custom w-100 mt-4 py-3">
+              <i class="bi bi-check-circle-fill"></i> Get Enrolled in Recommended Batch
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Market Comparison: Greens Technologies vs. Others
+       ========================================================================== -->
+  <section class="section-padding bg-white">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Market Comparison</span>
+        <h2 class="section-title">How Greens Technologies Outperforms Competitors</h2>
+        <p class="section-desc">
+          Compare our 40-hour tailored fresher mentoring with other training providers and generic learning platforms.
+        </p>
+      </div>
+
+      <div class="table-responsive comp-table-wrap">
+        <table class="table table-hover table-competitor mb-0 text-center">
+          <thead class="table-light">
+            <tr>
+              <th class="text-start" style="width: 34%;">Feature & Evaluation Benchmark</th>
+              <th class="highlight-col text-success fw-bold" style="width: 33%;">
+                <div class="d-flex align-items-center justify-content-center gap-2">
+                  <img src="assets/greens_logo_icon.png" width="30" height="30" class="rounded" alt="Greens">
+                  <span>Greens Technologies</span>
+                </div>
+                <small class="badge bg-success text-white mt-1">Fresher Special (CTFL v4.0)</small>
+              </th>
+              <th class="text-muted fw-bold" style="width: 33%;">
+                <div class="d-flex align-items-center justify-content-center gap-2">
+                  <i class="bi bi-slash-circle fs-5 text-secondary"></i>
+                  <span class="text-dark">Others</span>
+                </div>
+                <small class="badge bg-secondary-subtle text-muted mt-1 border">Other Training Providers</small>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-start fw-semibold">Course Duration</td>
+              <td class="highlight-col text-success fw-bold">40 Hours Intensive (30-45 hr optimal range)</td>
+              <td class="text-muted">12 - 20 Hours (Rushed) or 60+ Hours (Bloated)</td>
+            </tr>
+            <tr>
+              <td class="text-start fw-semibold">Teaching & Mentorship Format</td>
+              <td class="highlight-col text-success fw-bold">100% Live Interactive Mentorship (Muthu Viswanathan, Ex-IBM
+                Test Lead)</td>
+              <td class="text-muted">Pre-recorded video dumps or unmonitored mass webinars</td>
+            </tr>
+            <tr>
+              <td class="text-start fw-semibold">Latest CTFL v4.0 Syllabus Alignment</td>
+              <td class="highlight-col text-success fw-bold"><i class="bi bi-check-circle-fill text-success me-1"></i>
+                100% Aligned to Latest v4.0</td>
+              <td class="text-warning"><i class="bi bi-exclamation-triangle-fill text-warning me-1"></i> Often outdated
+                (still teaching legacy v3.1 syllabus)</td>
+            </tr>
+            <tr>
+              <td class="text-start fw-semibold">Pre-requisite Support (Manual Testing)</td>
+              <td class="highlight-col text-success fw-bold"><i class="bi bi-check-circle-fill text-success me-1"></i>
+                Free 5-Hour Primer Included for Beginners</td>
+              <td class="text-danger"><i class="bi bi-x-circle-fill text-danger me-1"></i> None (Beginners struggle
+                without foundation)</td>
+            </tr>
+            <tr>
+              <td class="text-start fw-semibold">Full Timed Mock Exams</td>
+              <td class="highlight-col text-success fw-bold">5 Full 40-Q Timed Mocks + Detailed Rationale Review</td>
+              <td class="text-muted">1 - 2 Static PDFs with no answer explanations</td>
+            </tr>
+            <tr>
+              <td class="text-start fw-semibold">Fresher MNC Placement Support</td>
+              <td class="highlight-col text-success fw-bold"><i class="bi bi-check-circle-fill text-success me-1"></i>
+                Dedicated Placement Cell & MNC Referral Drives</td>
+              <td class="text-danger"><i class="bi bi-x-circle-fill text-danger me-1"></i> No placement assistance or
+                passive job links</td>
+            </tr>
+            <tr>
+              <td class="text-start fw-semibold">Daily Doubt Resolution</td>
+              <td class="highlight-col text-success fw-bold">1-on-1 Daily Live Faculty Access & WhatsApp Group</td>
+              <td class="text-danger"><i class="bi bi-x-circle-fill text-danger me-1"></i> Slow ticket systems or zero
+                trainer interaction</td>
+            </tr>
+            <tr>
+              <td class="text-start fw-semibold">First-Attempt Pass Track Record</td>
+              <td class="highlight-col text-success fw-bold"><i class="bi bi-check-circle-fill text-success me-1"></i>
+                98.9% First-Attempt Success Rate</td>
+              <td class="text-muted">Standard 65% - 70% industry average pass rate</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Batch Options & Flexible Schedules
+       ========================================================================== -->
+  <section class="section-padding bg-light" id="batches">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Flexible Cohorts</span>
+        <h2 class="section-title">Select Your Preferred 40-Hour Training Track</h2>
+        <p class="section-desc">
+          Whether you want a rapid weekday sprint or intensive weekend deep-dives, we offer convenient batches designed
+          around college and recruitment schedules.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <!-- Weekday Fast Track -->
+        <div class="col-lg-4">
+          <div class="batch-card featured">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success-subtle text-success fw-bold px-3 py-1 rounded-pill">FAST TRACK</span>
+              <span class="text-muted small"><i class="bi bi-people-fill text-success"></i> 12 / 15 Enrolled</span>
+            </div>
+            <h4 class="fw-bold mb-1">Weekday Evening Batch</h4>
+            <p class="text-muted small">Ideal for freshers seeking quick certification before upcoming campus drives.
+            </p>
+
+            <div class="my-3 py-3 border-top border-bottom">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-calendar3 text-success"></i>
+                <span class="fw-semibold">Duration: 4 Weeks (40 Hours)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-clock text-success"></i>
+                <span>Mon to Fri: 2 Hours/day (7:30 PM - 9:30 PM)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-laptop text-success"></i>
+                <span>Live Interactive Online via Zoom / Classroom</span>
+              </div>
+            </div>
+
+            <ul class="list-unstyled small mb-4 flex-grow-1">
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Daily live recorded sessions with
+                lifetime access</li>
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Daily homework & BVA scenario
+                drill sheets</li>
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Complimentary 5-hr Manual Testing
+                Primer</li>
+            </ul>
+
+            <button class="btn btn-primary-custom w-100" data-bs-toggle="modal" data-bs-target="#enrollModal"
+              data-batch="Weekday Fast-Track">
+              Join Weekday Batch
+            </button>
+          </div>
+        </div>
+
+        <!-- Weekend Intensive -->
+        <div class="col-lg-4">
+          <div class="batch-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-primary-subtle text-primary fw-bold px-3 py-1 rounded-pill">WEEKEND INTENSIVE</span>
+              <span class="text-muted small"><i class="bi bi-people-fill text-primary"></i> 8 / 15 Enrolled</span>
+            </div>
+            <h4 class="fw-bold mb-1">Weekend Deep-Dive Batch</h4>
+            <p class="text-muted small">Ideal for final-year college students or interns balancing weekday schedules.
+            </p>
+
+            <div class="my-3 py-3 border-top border-bottom">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-calendar3 text-primary"></i>
+                <span class="fw-semibold">Duration: 6 Weeks (42 Hours)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-clock text-primary"></i>
+                <span>Sat & Sun: 3.5 Hours/day (10:00 AM - 1:30 PM)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-laptop text-primary"></i>
+                <span>Live Online / Chennai Centers (OMR / Tambaram)</span>
+              </div>
+            </div>
+
+            <ul class="list-unstyled small mb-4 flex-grow-1">
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Extended problem solving on
+                Chapter 4 & 5</li>
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Weekend live mock test debrief
+                sessions</li>
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Dedicated mentor 1-on-1 doubt
+                resolution</li>
+            </ul>
+
+            <button class="btn btn-outline-dark w-100 fw-bold py-2" data-bs-toggle="modal" data-bs-target="#enrollModal"
+              data-batch="Weekend Intensive">
+              Join Weekend Batch
+            </button>
+          </div>
+        </div>
+
+        <!-- 1-on-1 Fast Track Mentorship -->
+        <div class="col-lg-4">
+          <div class="batch-card">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span
+                class="badge bg-warning-subtle text-warning-emphasis fw-bold px-3 py-1 rounded-pill">PERSONALIZED</span>
+              <span class="text-muted small"><i class="bi bi-star-fill text-warning"></i> VIP Track</span>
+            </div>
+            <h4 class="fw-bold mb-1">1-on-1 Fast-Track Boot Camp</h4>
+            <p class="text-muted small">Targeted exam clearance within 10 to 14 days with dedicated senior instructor.
+            </p>
+
+            <div class="my-3 py-3 border-top border-bottom">
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-calendar3 text-warning"></i>
+                <span class="fw-semibold">Duration: Flexible 35 - 40 Hours</span>
+              </div>
+              <div class="d-flex align-items-center gap-2 mb-2">
+                <i class="bi bi-clock text-warning"></i>
+                <span>Tailored Timings (Morning / Evening / Customized)</span>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-person-video3 text-warning"></i>
+                <span>Private 1-on-1 Mentorship</span>
+              </div>
+            </div>
+
+            <ul class="list-unstyled small mb-4 flex-grow-1">
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Customized pace tailored to your
+                learning speed</li>
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Direct Pearson VUE exam
+                registration assistance</li>
+              <li class="mb-2"><i class="bi bi-check2 text-success fw-bold me-1"></i> Personalized interview coaching &
+                resume build</li>
+            </ul>
+
+            <button class="btn btn-outline-dark w-100 fw-bold py-2" data-bs-toggle="modal" data-bs-target="#enrollModal"
+              data-batch="1-on-1 Mentorship">
+              Enquire for 1-on-1 Mentorship
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Chief Faculty & SDET Mentor Profile: Muthu Viswanathan, M.Sc., M.Tech
+       ========================================================================== -->
+  <section class="section-padding bg-white" id="trainers">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Chief Faculty & SDET Mentor</span>
+        <h2 class="section-title">Learn from an Ex-IBM Test Lead & Global Corporate Trainer</h2>
+        <p class="section-desc">
+          Get trained directly by an industry veteran who has upskilled engineering workforces across Fortune 500 tech
+          giants. You won't just memorize theory—you will master enterprise-grade software testing from day one.
+        </p>
+      </div>
+
+      <!-- Master Profile Card -->
+      <div class="lead-trainer-wrapper mb-5">
+        <div class="lead-trainer-hero">
+          <div class="row align-items-center g-4">
+            <div class="col-md-auto text-center text-md-start">
+              <div class="trainer-portrait-badge mx-auto mx-md-0 position-relative">
+                <img src="assets/muthu_viswanathan_square.jpg" alt="Muthu Viswanathan, M.Sc., M.Tech"
+                  class="trainer-portrait-img">
+                <span class="trainer-photo-verified"><i class="bi bi-patch-check-fill text-warning"></i></span>
+              </div>
+            </div>
+            <div class="col-md">
+              <div
+                class="d-flex flex-wrap align-items-center gap-2 mb-2 justify-content-center justify-content-md-start">
+                <span class="degree-pill"><i class="bi bi-mortarboard-fill"></i> M.Sc., M.Tech</span>
+                <span class="ex-company-pill"><i class="bi bi-building-check text-warning"></i> Ex-IBM Test Lead</span>
+                <span class="badge bg-warning text-dark fw-bold px-3 py-1 rounded-pill"><i
+                    class="bi bi-patch-check-fill"></i> 20+ Years Corporate Experience</span>
+              </div>
+              <h3 class="display-6 fw-bold text-white mb-1 text-center text-md-start">Muthu VenkataKrishnan</h3>
+              <div class="text-warning fw-semibold fs-6 mb-2 text-center text-md-start">
+                Principal SDET Architect & Chief Corporate Trainer
+              </div>
+              <p class="text-light opacity-90 small mb-0 text-center text-md-start"
+                style="max-width: 820px; line-height: 1.6;">
+                Former <strong>Test Lead – Automation & Manual</strong> and <strong>Developer & SDET at IBM India Pvt
+                  Ltd</strong>. Muthu brings over 20 years of software craftsmanship, enterprise quality architecture,
+                and corporate training mastery. He has delivered <strong>200+ Corporate Trainings</strong> globally,
+                empowering engineering teams at companies like Siemens, Capgemini, Rakuten, and IBM to build rock-solid
+                test automation pipelines and achieve first-time-right software releases.
+              </p>
+            </div>
+          </div>
+
+          <!-- Hero Stats Strip -->
+          <div class="trainer-hero-stats">
+            <div class="trainer-hero-stat-card">
+              <div class="trainer-hero-stat-val">20+ Yrs</div>
+              <div class="trainer-hero-stat-lbl">Enterprise QA Experience</div>
+            </div>
+            <div class="trainer-hero-stat-card">
+              <div class="trainer-hero-stat-val text-success">200+</div>
+              <div class="trainer-hero-stat-lbl">Corporate Batches Trained</div>
+            </div>
+            <div class="trainer-hero-stat-card">
+              <div class="trainer-hero-stat-val text-info">50,000+</div>
+              <div class="trainer-hero-stat-lbl">Learners & Engineers Impacted</div>
+            </div>
+            <div class="trainer-hero-stat-card">
+              <div class="trainer-hero-stat-val text-warning">99.2%</div>
+              <div class="trainer-hero-stat-lbl">First-Attempt Pass Track Record</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic & SDET Deep-Dive Section -->
+        <div class="p-4 p-md-5 bg-white border-top">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-7">
+              <h5 class="fw-bold text-dark mb-3">
+                <i class="bi bi-award-fill text-warning me-2"></i>Academic Excellence & Industry Pedigree
+              </h5>
+              <div class="p-3 bg-light rounded-3 mb-3 border">
+                <div class="d-flex align-items-start gap-3">
+                  <i class="bi bi-mortarboard fs-3 text-success"></i>
+                  <div>
+                    <strong class="text-dark d-block">Master of Technology (M.Tech) in Advanced Computing</strong>
+                    <span class="text-muted small">SASTRA University &bull; Specialized in Advanced Algorithm Design &
+                      High-Throughput Computing</span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3 bg-light rounded-3 mb-3 border">
+                <div class="d-flex align-items-start gap-3">
+                  <i class="bi bi-mortarboard fs-3 text-primary"></i>
+                  <div>
+                    <strong class="text-dark d-block">Master of Science (M.Sc) in Computer Science</strong>
+                    <span class="text-muted small">Bharathidasan University &bull; Strong theoretical computer science
+                      and software architecture foundation</span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-3 bg-light rounded-3 border">
+                <div class="d-flex align-items-start gap-3">
+                  <i class="bi bi-briefcase fs-3 text-warning"></i>
+                  <div>
+                    <strong class="text-dark d-block">Former Test Lead (Automation & Manual) &bull; IBM India Pvt
+                      Ltd</strong>
+                    <span class="text-muted small">Spearheaded automation frameworks that reduced regression time by 70%
+                      and critical production defects by over 30-40%. Mentored cross-functional teams of 50+
+                      engineers.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="p-4 rounded-4"
+                style="background: linear-gradient(145deg, #f0fdf4 0%, #ecfdf5 100%); border: 1px solid rgba(0, 168, 89, 0.25);">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="badge bg-success text-white fw-bold">TRAINER'S DIRECT PLEDGE</span>
+                </div>
+                <h6 class="fw-bold text-dark mb-2">Why Fresh Graduates Excel Under Muthu's Guidance:</h6>
+                <p class="text-secondary small mb-3" style="line-height: 1.6;">
+                  <em>"Software testing is no longer just manual button-clicking—it is a respected engineering
+                    discipline. In this 40-hour masterclass, I teach you the exact industry-grade test design
+                    principles, boundary value mathematics, and defect logging techniques that I have implemented at IBM
+                    and taught to Fortune 500 engineers. You won't just clear the 65% ISTQB cutoff; you will walk into
+                    interviews thinking and answering like a seasoned SDET."</em>
+                </p>
+                <div class="d-flex align-items-center gap-3 pt-2">
+                  <img src="assets/muthu_viswanathan_square.jpg" alt="Muthu Viswanathan" width="48" height="48"
+                    class="rounded-circle border border-2 border-success shadow-sm" style="object-fit: cover;">
+                  <div>
+                    <div class="fw-bold text-success small">Muthu VenkataKrishnan, M.Sc., M.Tech</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SDET & Testing Competencies -->
+          <div class="mt-4 pt-3 border-top">
+            <div class="text-uppercase text-muted fw-bold small mb-2"
+              style="font-size: 0.75rem; letter-spacing: 0.05em;">
+              Core Testing & SDET Competencies Mastered in this 40-Hour Course:
+            </div>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i>
+                Boundary
+                Value Analysis (BVA 2-value & 3-value)</span>
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i>
+                Equivalence Partitioning (EP) Math</span>
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i>
+                Decision
+                Table Testing</span>
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i> State
+                Transition Diagrams</span>
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i> SDLC
+                Test
+                Levels (Unit, Integration, System, UAT)</span>
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i> Jira
+                Defect Lifecycle (Severity vs. Priority)</span>
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i>
+                Risk-Based Testing (RBT)</span>
+              <span class="badge bg-light text-dark border p-2"><i class="bi bi-check2 text-success me-1"></i>
+                Complimentary 5-Hour Manual Testing Primer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==========================================================================
+             Enterprises Trained & Corporate Clients Section
+             ========================================================================== -->
+        <div class="client-logos-section">
+          <div class="text-center mb-4">
+            <span
+              class="badge bg-success-subtle text-success border border-success-subtle px-3 py-1 rounded-pill fw-bold small text-uppercase">
+              <i class="bi bi-buildings-fill me-1"></i> Corporate Track Record
+            </span>
+            <h4 class="fw-bold text-dark mt-2 mb-1">Global Tech Enterprises Trained by Muthu VenkataKrishnan</h4>
+            <p class="text-muted small mb-0">Engineers and testing teams from these leading global organizations have
+              been upskilled through his corporate programs:</p>
+          </div>
+
+          <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-3 justify-content-center">
+            <!-- 1. IBM -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/ibm.png" alt="IBM" class="client-logo-img">
+                <span class="client-logo-caption">Technology & Cloud</span>
+              </div>
+            </div>
+
+            <!-- 2. Siemens -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/siemens.png" alt="Siemens" class="client-logo-img">
+                <span class="client-logo-caption">Digital Solutions & R&D</span>
+              </div>
+            </div>
+
+            <!-- 3. Capgemini -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/capgemini.png" alt="Capgemini" class="client-logo-img">
+                <span class="client-logo-caption">Global IT Consulting</span>
+              </div>
+            </div>
+
+            <!-- 4. Rakuten -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/rakuten.png" alt="Rakuten" class="client-logo-img">
+                <span class="client-logo-caption">E-Commerce & Digital</span>
+              </div>
+            </div>
+
+            <!-- 5. Kongsberg -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/kongsberg.png" alt="Kongsberg" class="client-logo-img">
+                <span class="client-logo-caption">High-Tech & Maritime</span>
+              </div>
+            </div>
+
+            <!-- 6. World Fuel Services -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/worldfuelservices.png" alt="World Fuel Services" class="client-logo-img">
+                <span class="client-logo-caption">Global Logistics & QA</span>
+              </div>
+            </div>
+
+            <!-- 7. Elevance Health -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/elevancehealth.png" alt="Elevance Health" class="client-logo-img">
+                <span class="client-logo-caption">Healthcare Tech</span>
+              </div>
+            </div>
+
+            <!-- 8. Talisma -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/talisma.png" alt="Talisma" class="client-logo-img">
+                <span class="client-logo-caption">Enterprise CRM</span>
+              </div>
+            </div>
+
+            <!-- 9. Anthology -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/anthology.png" alt="Anthology" class="client-logo-img">
+                <span class="client-logo-caption">EdTech Systems</span>
+              </div>
+            </div>
+
+            <!-- 10. Neudesic -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/neudesic.png" alt="Neudesic" class="client-logo-img">
+                <span class="client-logo-caption">Microsoft Cloud Partner</span>
+              </div>
+            </div>
+
+            <!-- 11. Soliton -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/soliton.png" alt="Soliton" class="client-logo-img">
+                <span class="client-logo-caption">Test Automation Systems</span>
+              </div>
+            </div>
+
+            <!-- 12. Tech Mahindra -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/techmahindra.png" alt="Tech Mahindra" class="client-logo-img">
+                <span class="client-logo-caption">Digital Transformation</span>
+              </div>
+            </div>
+
+            <!-- 13. Avensys -->
+            <div class="col">
+              <div class="client-logo-card">
+                <img src="assets/companies/avensys.png" alt="Avensys" class="client-logo-img">
+                <span class="client-logo-caption">Enterprise Solutions</span>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Enterprise Client Recommendations from his Portfolio -->
+          <div class="row g-3 mt-4">
+            <div class="col-md-4">
+              <div class="enterprise-quote-card">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="badge bg-primary-subtle text-primary fw-bold">WORLD FUEL SERVICES</span>
+                </div>
+                <p class="small text-secondary fst-italic mb-2">
+                  "When we are in a critical situation, it is his extra effort that made us reach the milestone. A
+                  knowledgeable and handy resource."
+                </p>
+                <div class="fw-bold small text-dark">&mdash; QA Automation Lead</div>
+                <div class="text-muted" style="font-size: 0.72rem;">World Fuel Services (Global QA Team)</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="enterprise-quote-card" style="border-left-color: #064e3b;">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="badge bg-success-subtle text-success fw-bold">SIEMENS</span>
+                </div>
+                <p class="small text-secondary fst-italic mb-2">
+                  "Thank you for your wonderful training. We got non-IT resources to be part of our techno pack. This
+                  wouldn't have been possible without your guidance."
+                </p>
+                <div class="fw-bold small text-dark">&mdash; Portfolio Delivery Lead</div>
+                <div class="text-muted" style="font-size: 0.72rem;">Siemens Digital Solutions (R&D)</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="enterprise-quote-card" style="border-left-color: #d97706;">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="badge bg-warning-subtle text-warning-emphasis fw-bold">KONGSBERG</span>
+                </div>
+                <p class="small text-secondary fst-italic mb-2">
+                  "We are really thankful for Muthu's guidance and training. Our budding team of developers got deployed
+                  to projects in less amount of time."
+                </p>
+                <div class="fw-bold small text-dark">&mdash; Workforce Transformation Leader</div>
+                <div class="text-muted" style="font-size: 0.72rem;">Kongsberg Maritime Systems</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mentorship Benefits Banner -->
+      <div
+        class="p-4 rounded-4 bg-light border d-flex flex-wrap align-items-center justify-content-between gap-3 shadow-sm">
+        <div class="d-flex align-items-center gap-3">
+          <img src="assets/muthu_viswanathan_square.jpg" alt="Muthu Viswanathan" width="58" height="58"
+            class="rounded-circle border border-3 border-success shadow-sm" style="object-fit: cover;">
+          <div>
+            <h5 class="fw-bold mb-1 text-dark">Direct Mentorship Guarantee with Muthu Viswanathan, M.Sc., M.Tech</h5>
+            <p class="text-muted small mb-0">Daily 1-on-1 live doubt clearing &bull; Private WhatsApp batch group
+              &bull;
+              Pre-exam 1-on-1 interview confidence audit</p>
+          </div>
+        </div>
+        <button class="btn btn-primary-custom" data-bs-toggle="modal" data-bs-target="#enrollModal">
+          <i class="bi bi-lightning-charge-fill me-1"></i> Enroll in Muthu's Next Batch &rarr;
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Sample Lecture Videos Section: Sneak Peek Inside the Classroom
+       ========================================================================== -->
+  <section class="section-padding bg-light" id="sample-videos">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag"><i class="bi bi-camera-video-fill me-1"></i> Classroom Previews</span>
+        <h2 class="section-title">Sneak Peek Inside the Classroom: Sample Sessions</h2>
+        <p class="section-desc">
+          Experience our interactive, scenario-based teaching style first-hand before enrolling. Watch how Muthu
+          Viswanathan breaks down complex ISTQB CTFL v4.0 topics into crystal-clear concepts.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Sample Video 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="sample-video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata" playsinline class="sample-video-player">
+                <source src="assets/videos/Sample_Video_1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-badge-pill">
+                <i class="bi bi-play-circle-fill text-danger me-1"></i> Lecture 01
+              </div>
+            </div>
+            <div class="sample-video-body">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <span class="badge bg-primary-subtle text-primary fw-bold">Chapter 1 &bull; Fundamentals</span>
+                <span class="text-muted small"><i class="bi bi-clock me-1"></i> 1080p HD</span>
+              </div>
+              <h5 class="sample-video-title">CTFL v4.0 Core Fundamentals</h5>
+              <p class="sample-video-desc">
+                Exploring real-world failure scenarios across four live projects, identifying recurring patterns, and
+                uncovering a common approach to failure analysis and resolution.
+              </p>
+              <div class="sample-video-meta">
+                <span><i class="bi bi-person-badge text-success me-1"></i> Muthu Viswanathan</span>
+                <span><i class="bi bi-check-circle-fill text-primary me-1"></i> CTFL v4.0 Syllabus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sample Video 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="sample-video-card">
+            <div class="video-wrapper">
+              <video controls preload="metadata" playsinline class="sample-video-player">
+                <source src="assets/videos/Sample_video_2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="video-badge-pill">
+                <i class="bi bi-play-circle-fill text-danger me-1"></i> Lecture 02
+              </div>
+            </div>
+            <div class="sample-video-body">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <span class="badge bg-success-subtle text-success fw-bold">Chapter 1 &bull; Testing Principles</span>
+                <span class="text-muted small"><i class="bi bi-clock me-1"></i> 1080p HD</span>
+              </div>
+              <h5 class="sample-video-title">7 important Testing Principles</h5>
+              <p class="sample-video-desc">
+                Understanding the 7 fundamental principles of software testing, their practical significance, and how
+                they guide effective testing strategies in real-world projects.
+              </p>
+              <div class="sample-video-meta">
+                <span><i class="bi bi-person-badge text-success me-1"></i> Muthu Viswanathan</span>
+                <span><i class="bi bi-check-circle-fill text-primary me-1"></i> CTFL v4.0 Syllabus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Video Action Banner -->
+        <div class="mt-5 p-4 rounded-4 bg-white border shadow-sm">
+          <div class="row align-items-center justify-content-between g-3">
+            <div class="col-lg-8 text-center text-lg-start">
+              <h5 class="fw-bold mb-1 text-dark"><i class="bi bi-camera-reels-fill text-primary me-2"></i>Want Full
+                Access
+                to All 40+ Hours of Recorded Sessions & Study Material?</h5>
+              <p class="text-muted small mb-0">Every live class is recorded in full 1080p HD and uploaded to your
+                student
+                portal with lifetime access, downloadable slides, and chapter mind maps.</p>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+              <button class="btn btn-primary-custom" data-bs-toggle="modal" data-bs-target="#enrollModal">
+                <i class="bi bi-whatsapp me-1"></i> Request Live Demo Pass &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- ==========================================================================
+       Student Testimonials: Fresh Graduates Success Stories (Auto-Scrolled Carousel)
+       ========================================================================== -->
+  <section class="section-padding bg-white" id="testimonials">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-end justify-content-between mb-4">
+        <div>
+          <span class="section-tag">Student Success</span>
+          <h2 class="section-title mb-2">Freshers Who Cleared CTFL & Got Placed</h2>
+          <p class="section-desc mb-0">
+            Read how fresh graduates from 2024 - 2026 batches transformed their careers with Greens Technologies'
+            40-hour mentorship.
+          </p>
+        </div>
+        <!-- Carousel Nav Buttons -->
+        <div class="d-flex align-items-center gap-2 mt-3 mt-md-0">
+          <button class="carousel-nav-btn" id="testiPrevBtn" aria-label="Previous Testimonials">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button class="carousel-nav-btn" id="testiNextBtn" aria-label="Next Testimonials">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Testimonials Viewport & Track -->
+      <div class="testimonials-slider-wrapper">
+        <div class="testimonials-viewport" id="testimonialsViewport">
+          <div class="testimonials-track" id="testimonialsTrack">
+
+            <!-- Testimonial 1: Ananya Ramaswamy -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      92.5% &bull; 1st Attempt</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "As a 2024 B.Tech CSE fresher, my resume was getting rejected everywhere. I enrolled in Greens
+                    Technologies' 40-hour ISTQB CTFL course. The trainer made Boundary Value Analysis and Decision
+                    Tables crystal clear. Cleared on my first attempt with 37/40! Within 3 weeks, Cognizant shortlisted
+                    me for their QA Associate role with a &#8377;5.2 LPA package."
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-primary">AR</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Ananya Ramaswamy</h6>
+                    <small class="text-muted d-block">B.Tech 2024 Graduate &bull; Now at Cognizant</small>
+                    <span class="badge bg-primary-subtle text-primary small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>Cognizant (CTS)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2: Vijay Karthik -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      88% &bull; 1st Attempt</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "I only had basic textbook knowledge of manual testing from college, which the course description
+                    said was an added advantage. The trainer connected all manual testing basics with the new CTFL v4.0
+                    syllabus. The 5 full mock exams were identical to the actual exam format. Cleared on first attempt
+                    smoothly!"
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-success">VK</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Vijay Karthik</h6>
+                    <small class="text-muted d-block">BCA Graduate &bull; Placed at TCS Quality Engineering</small>
+                    <span class="badge bg-dark-subtle text-dark small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>TCS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3: Pooja Sundaram -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      95% &bull; 38/40</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "Compared to generic pre-recorded video tutorials from other platforms that left me confused with
+                    old v3.1 material, Greens Technologies gave me live mentor support every evening. The question
+                    rationale breakdowns for tricky Chapter 4 and Chapter 5 scenario questions were gold. Worth every
+                    single penny for freshers!"
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-info">PS</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Pooja Sundaram</h6>
+                    <small class="text-muted d-block">B.E ECE Fresher &bull; Placed at Accenture QA</small>
+                    <span class="badge bg-primary-subtle text-primary small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>Accenture</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4: Siddharth Menon (NEW) -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      95% &bull; 38/40</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "I had zero formal corporate QA experience before joining. Muthu Sir's breakdown of Chapter 4
+                    Black-Box techniques (Equivalence Partitioning and State Transition) made everything so intuitive.
+                    The 5 timed mock exams prepared me so well that the actual exam felt like a breeze. Within 2 weeks
+                    of adding CTFL to LinkedIn, Infosys scheduled my technical interview!"
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-primary">SM</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Siddharth Menon</h6>
+                    <small class="text-muted d-block">B.Tech IT 2025 Graduate &bull; Placed at Infosys SDET</small>
+                    <span class="badge bg-primary-subtle text-primary small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>Infosys</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 5: Divya Bharathi (NEW) -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      90% &bull; 1st Attempt</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "Most training centers still teach obsolete syllabus. Greens Technologies taught the exact ISTQB
+                    CTFL v4.0 with Agile, CI/CD, and DevOps testing integration. The dedicated weekend doubt-clearing
+                    sessions gave me tremendous confidence. I cleared on my 1st attempt and got selected at Capgemini
+                    with a 40% higher package than standard campus offers."
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-success">DB</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Divya Bharathi</h6>
+                    <small class="text-muted d-block">B.Sc Computer Science &bull; Placed at Capgemini QA</small>
+                    <span class="badge bg-primary-subtle text-primary small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>Capgemini</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 6: Kavya Natarajan (NEW) -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      92.5% &bull; 37/40</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "The complimentary 5-hour manual testing primer gave me an instant head start. The live interactive
+                    sessions, 200+ practice questions, and chapter-wise quizzes were a game changer. Passed CTFL with
+                    92.5% on my very first try. Greens Technologies' placement cell helped me schedule 3 MNC interviews
+                    in a single month!"
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-info">KN</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Kavya Natarajan</h6>
+                    <small class="text-muted d-block">MCA 2025 Fresher &bull; Placed at Wipro Technologies</small>
+                    <span class="badge bg-success-subtle text-success small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>Wipro</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 7: Rohit Varma (NEW) -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      87.5% &bull; Non-CS Switch</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "Coming from a non-CS background, switching to software testing felt daunting. Muthu Sir's
+                    real-world corporate examples from his 20+ years at IBM and top enterprises made test management and
+                    risk-based testing effortless to understand. ISTQB CTFL on my resume gave me immediate credibility,
+                    and I cracked LTIMindtree's QA assessment."
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-warning">RV</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Rohit Varma</h6>
+                    <small class="text-muted d-block">B.E Mechanical Graduate &bull; Placed at LTIMindtree</small>
+                    <span class="badge bg-warning-subtle text-dark small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>LTIMindtree</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 8: Sneha Balakrishnan (NEW) -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <div class="text-warning">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="badge bg-success-subtle text-success border border-success-subtle small fw-bold">Score:
+                      97.5% &bull; 39/40 High Score</span>
+                  </div>
+                  <p class="text-secondary small fst-italic">
+                    "Scored 39 out of 40! The timed mock exams on Greens' portal simulate the exact Pearson VUE exam
+                    environment with the 60-minute countdown. Muthu Sir's question rationale analysis for each question
+                    helped me avoid typical trick options in Chapter 4 and 5. Best investment for freshers looking for
+                    high-paying testing careers."
+                  </p>
+                </div>
+                <div class="testi-user">
+                  <div class="user-avatar-initials bg-gradient-primary">SB</div>
+                  <div>
+                    <h6 class="fw-bold mb-0 text-dark">Sneha Balakrishnan</h6>
+                    <small class="text-muted d-block">B.Tech EEE 2024 &bull; Placed at HCLTech QA</small>
+                    <span class="badge bg-primary-subtle text-primary small py-1 px-2 mt-1"><i
+                        class="bi bi-building me-1"></i>HCLTech</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Carousel Indicators / Dots -->
+        <div class="testimonials-dots" id="testimonialsDots"></div>
+
+        <!-- Mobile Scroll Hint -->
+        <div class="text-center mt-3 d-md-none text-muted small">
+          <i class="bi bi-arrow-left-right me-1"></i> Swipe horizontally to explore all 8 freshers' reviews
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Comprehensive FAQ Section for Fresh Graduates
+       ========================================================================== -->
+  <section class="section-padding bg-light" id="faqs">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions for Freshers</h2>
+        <p class="section-desc">
+          Everything fresh graduates need to know about ISTQB CTFL eligibility, syllabus version, exam booking, and
+          career value.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion custom-faq-accordion" id="faqAccordion">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne"
+                  aria-expanded="true" aria-controls="faqOne">
+                  1. What are the prerequisites for this course? Do I need prior testing experience?
+                </button>
+              </h2>
+              <div id="faqOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <strong>Knowledge of manual testing will be an added advantage.</strong> However, there are no
+                  mandatory prerequisites! If you are a complete beginner with zero testing background, our training
+                  package includes a complimentary <strong>5-Hour Manual Testing Foundation Primer</strong> that teaches
+                  SDLC models, test case drafting, bug lifecycle, and basic testing terminology before Chapter 1 begins.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                  2. Why is 30 to 45 hours the ideal course duration?
+                </button>
+              </h2>
+              <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Top international testing boards recommend a minimum of 24-30 contact hours to thoroughly cover all 6
+                  chapters of the CTFL v4.0 syllabus. By structuring our course for <strong>40 Hours</strong> (including
+                  36 hours of concept breakdown and 4 hours of full-length mock exams and question debriefs), we ensure
+                  freshers don't merely memorize facts, but deeply understand how to solve tricky K3-level scenario
+                  questions.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                  3. What is the official ISTQB CTFL exam pattern and passing mark?
+                </button>
+              </h2>
+              <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  The official ISTQB CTFL exam consists of:
+                  <ul class="mt-2 mb-2">
+                    <li><strong>40 Multiple-Choice Questions (MCQs)</strong> with one correct answer each.</li>
+                    <li><strong>Time limit: 60 minutes</strong> (non-native English speakers receive 75 minutes).</li>
+                    <li><strong>Passing Score: 65%</strong> (you must score at least 26 out of 40 points).</li>
+                    <li><strong>Zero negative marking</strong> for incorrect responses.</li>
+                  </ul>
+                  Our students take 5 full-length timed mock exams to get comfortable with the pacing and environment.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">
+                  4. Does the ISTQB CTFL certificate expire?
+                </button>
+              </h2>
+              <div id="faqFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <strong>No! The ISTQB CTFL certificate holds lifetime validity.</strong> Unlike other cloud or agile
+                  certifications that expire after 2 or 3 years, your CTFL credential stays on your resume and LinkedIn
+                  forever without any renewal fee.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqFive" aria-expanded="false" aria-controls="faqFive">
+                  5. Will Greens Technologies assist with exam registration and fees?
+                </button>
+              </h2>
+              <div id="faqFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes! Our administrative coordinator assists you step-by-step with booking your exam through the
+                  official Indian Testing Board (ITB), GASQ, iSQI, or Pearson VUE. We also guide you on student
+                  discounts and optimal exam slot timings.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqSix" aria-expanded="false" aria-controls="faqSix">
+                  6. Can I attend classes online or at Greens Technologies classroom centers?
+                </button>
+              </h2>
+              <div id="faqSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Both options are available! You can join our live interactive online batches from anywhere in
+                  India/globally with two-way voice and screen sharing, or attend classroom sessions at our flagship
+                  Greens Technologies campuses in Chennai (OMR, Tambaram, Velachery, Adyar).
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Enrollment & Lead Capture Section
+       ========================================================================== -->
+  <section class="section-padding bg-dark text-white position-relative" id="enroll-section">
+    <div class="container position-relative z-1">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="badge bg-success-subtle text-success px-3 py-2 rounded-pill fw-bold mb-3">
+            <i class="bi bi-mortarboard-fill"></i> FRESHER BATCH ENROLLMENT
+          </span>
+          <h2 class="display-6 fw-bold mb-3">Book Your Seat for the Upcoming 40-Hour Masterclass</h2>
+          <p class="text-secondary mb-4">
+            Seats are strictly capped at 15 students per batch to ensure individual mentor attention and guaranteed
+            first-attempt exam pass readiness.
+          </p>
+
+          <div class="d-flex flex-column gap-3 mb-4">
+            <div class="d-flex align-items-center gap-3">
+              <div class="rounded-circle bg-success text-white p-2 d-flex align-items-center justify-content-center"
+                style="width: 38px; height: 38px;">
+                <i class="bi bi-check-lg fw-bold"></i>
+              </div>
+              <div>
+                <strong class="text-white">100% CTFL v4.0 Curriculum</strong>
+                <div class="text-muted small">Updated with latest 2026 Agile & whole-team quality standards.</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <div class="rounded-circle bg-success text-white p-2 d-flex align-items-center justify-content-center"
+                style="width: 38px; height: 38px;">
+                <i class="bi bi-check-lg fw-bold"></i>
+              </div>
+              <div>
+                <strong class="text-white">Pre-requisite Primer Included</strong>
+                <div class="text-muted small">Manual testing knowledge is an added advantage; beginners receive free
+                  primer.</div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <div class="rounded-circle bg-success text-white p-2 d-flex align-items-center justify-content-center"
+                style="width: 38px; height: 38px;">
+                <i class="bi bi-check-lg fw-bold"></i>
+              </div>
+              <div>
+                <strong class="text-white">Dedicated Placement Cell Support</strong>
+                <div class="text-muted small">Direct interview referrals to MNC hiring partners across Chennai &
+                  Bangalore.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-lg p-4 p-md-5 rounded-4 bg-white text-dark">
+            <h4 class="fw-bold mb-1">Get Course Details & Discount</h4>
+            <p class="text-muted small mb-4">Fill details to receive syllabus PDF, fee schedule, and sample mock test.
+            </p>
+
+            <form id="fresherEnrollForm">
+              <div class="mb-3">
+                <label class="form-label small fw-bold text-uppercase">Full Name <span
+                    class="text-danger">*</span></label>
+                <div class="input-group">
+                  <span class="input-group-text bg-light border-end-0"><i class="bi bi-person text-muted"></i></span>
+                  <input type="text" id="fresher-name" class="form-control border-start-0"
+                    placeholder="e.g. Rahul Sharma" required>
+                </div>
+              </div>
+
+              <div class="row g-2 mb-3">
+                <div class="col-sm-6">
+                  <label class="form-label small fw-bold text-uppercase">Email Address <span
+                      class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light border-end-0"><i
+                        class="bi bi-envelope text-muted"></i></span>
+                    <input type="email" id="fresher-email" class="form-control border-start-0"
+                      placeholder="name@domain.com" required>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label small fw-bold text-uppercase">Mobile / WhatsApp <span
+                      class="text-danger">*</span></label>
+                  <div class="input-group">
+                    <span class="input-group-text bg-light border-end-0"><i
+                        class="bi bi-whatsapp text-success"></i></span>
+                    <input type="tel" id="fresher-phone" class="form-control border-start-0"
+                      placeholder="+91 98765 43210" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row g-2 mb-3">
+                <div class="col-sm-6">
+                  <label class="form-label small fw-bold text-uppercase">Graduation Year</label>
+                  <select id="fresher-year" class="form-select">
+                    <option value="2026 (Final Year)">2026 (Final Year)</option>
+                    <option value="2025 Graduate" selected>2025 Graduate</option>
+                    <option value="2024 Graduate">2024 Graduate</option>
+                    <option value="2023 Graduate">2023 Graduate</option>
+                    <option value="Earlier Graduate">Earlier</option>
+                  </select>
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label small fw-bold text-uppercase">Preferred Batch</label>
+                  <select id="fresher-batch" class="form-select">
+                    <option value="Weekday Fast-Track (4 Wks)" selected>Weekday Fast-Track (4 Wks)</option>
+                    <option value="Weekend Intensive (6 Wks)">Weekend Intensive (6 Wks)</option>
+                    <option value="1-on-1 Fast-Track Mentorship">1-on-1 Fast-Track Mentorship</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label small fw-bold text-uppercase">Manual Testing Background (Added
+                  Advantage)</label>
+                <select id="fresher-knowledge" class="form-select">
+                  <option value="Basic College Knowledge of Manual Testing" selected>I have basic college knowledge of
+                    manual testing</option>
+                  <option value="Manual Testing Internship / Projects">I have done manual testing internship/project
+                  </option>
+                  <option value="Complete Beginner (Need Free 5-Hr Primer)">I am a complete beginner (Need free 5-hr
+                    primer)</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn-primary-custom w-100 py-3 justify-content-center">
+                <i class="bi bi-send-fill me-1"></i> Reserve Seat & Get Syllabus PDF
+              </button>
+
+              <div class="text-center mt-3 text-muted" style="font-size: 0.75rem;">
+                <i class="bi bi-shield-lock-fill text-success"></i> Your data is 100% confidential. No spam guaranteed.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Sticky Bottom Enrollment Action Bar (Mobile & Desktop)
+       ========================================================================== -->
+  <div class="sticky-bottom-bar">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <div class="d-flex align-items-center gap-3">
+        <img src="assets/greens_logo_badge.png" width="38" height="38" class="rounded" alt="Greens Tech">
+        <div>
+          <div class="fw-bold small text-white">ISTQB CTFL v4.0 for Fresh Graduates (40 Hours)</div>
+          <div class="text-muted" style="font-size: 0.75rem;">Pre-requisite: Manual testing knowledge is an added
+            advantage</div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <a href="tel:+918939915577" class="btn btn-outline-light btn-sm d-none d-sm-inline-flex">
+          <i class="bi bi-telephone-fill me-1"></i> Call Support
+        </a>
+        <button class="btn btn-primary-custom btn-sm py-2 px-3" data-bs-toggle="modal" data-bs-target="#enrollModal">
+          <i class="bi bi-lightning-charge-fill"></i> Enroll Now &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Footer Section
+       ========================================================================== -->
+  <footer class="footer-dark">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="assets/greens_logo_badge.png" width="45" height="45" class="rounded" alt="Greens Technologies">
+            <div>
+              <h5 class="mb-0 text-white fw-bold">Greens Technologies</h5>
+              <span class="text-success small fw-semibold">Premier Software Testing Institute</span>
+            </div>
+          </div>
+          <p class="small text-secondary mb-3">
+            India's leading IT training and placement academy empowering fresh engineering and science graduates to land
+            high-paying software testing and QA roles at multinational technology companies.
+          </p>
+          <div class="d-flex gap-3 fs-5">
+            <a href="https://greenstech.in/" target="_blank" class="text-secondary"><i class="bi bi-globe"></i></a>
+            <a href="https://www.linkedin.com/company/greens-technology/" target="_blank" class="text-secondary"><i
+                class="bi bi-linkedin"></i></a>
+            <a href="https://www.youtube.com/@GreensTechnologys" target="_blank" class="text-secondary"><i
+                class="bi bi-youtube"></i></a>
+            <a href="https://www.facebook.com/greenstechnologys/" target="_blank" class="text-secondary"><i
+                class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled small">
+            <!-- Strictly adhering to navbar and home guidance -->
+            <li class="mb-2"><a href="https://greenstech.in/"><i
+                  class="bi bi-chevron-right text-success small me-1"></i> Home</a></li>
+            <li class="mb-2"><a href="#curriculum"><i class="bi bi-chevron-right text-success small me-1"></i> 40-Hr
+                Curriculum</a></li>
+            <li class="mb-2"><a href="#quiz-section"><i class="bi bi-chevron-right text-success small me-1"></i> CTFL
+                Quiz Simulator</a></li>
+            <li class="mb-2"><a href="#batches"><i class="bi bi-chevron-right text-success small me-1"></i> Batch
+                Timings</a></li>
+            <li class="mb-2"><a href="#trainers"><i class="bi bi-chevron-right text-success small me-1"></i> Trainer
+                Profiles</a></li>
+            <li class="mb-2"><a href="#faqs"><i class="bi bi-chevron-right text-success small me-1"></i> Fresher
+                FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <h5>Training Campuses</h5>
+          <ul class="list-unstyled small text-secondary">
+            <li class="mb-2"><i class="bi bi-geo-alt-fill text-success me-2"></i> <strong>OMR:</strong> Navalur &
+              Thoraipakkam, Chennai</li>
+            <li class="mb-2"><i class="bi bi-geo-alt-fill text-success me-2"></i> <strong>Tambaram:</strong> Opp.
+              Railway Station, Chennai</li>
+            <li class="mb-2"><i class="bi bi-geo-alt-fill text-success me-2"></i> <strong>Velachery & Adyar</strong>,
+              Chennai</li>
+            <li class="mb-2"><i class="bi bi-broadcast text-info me-2"></i> <strong>Global Online:</strong> Interactive
+              Live Batches</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>Direct Contact</h5>
+          <p class="small text-secondary mb-2">Speak directly with our QA Career Counselor:</p>
+          <div class="mb-2">
+            <a href="tel:+918939915577" class="fw-bold text-white fs-6 d-block">
+              <i class="bi bi-telephone-outbound text-success me-2"></i> +91 89399 15577
+            </a>
+          </div>
+          <div class="mb-3">
+            <a href="mailto:contact@greenstech.in" class="small text-secondary">
+              <i class="bi bi-envelope text-success me-2"></i> contact@greenstech.in
+            </a>
+          </div>
+          <a href="https://greenstech.in/" class="btn btn-outline-success btn-sm w-100 fw-semibold">
+            Visit Main Website (greenstech.in)
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-legal-notice text-center">
+        <p class="mb-1">
+          &copy; 2026 Greens Technologies. All rights reserved.
+        </p>
+        <p class="mb-0">
+          <strong>Disclaimer:</strong> ISTQB® (International Software Testing Qualifications Board) is a registered
+          trademark of the International Software Testing Qualifications Board. This training course is conducted
+          independently by Greens Technologies to prepare candidates for the official CTFL v4.0 certification
+          examinations.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Modal 1: Quick Enrollment Form
+       ========================================================================== -->
+  <div class="modal fade" id="enrollModal" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow-xl rounded-4">
+        <div class="modal-header border-bottom bg-light">
+          <div class="d-flex align-items-center gap-2">
+            <img src="assets/greens_logo_badge.png" width="32" height="32" class="rounded" alt="Logo">
+            <h5 class="modal-title fw-bold" id="enrollModalLabel">Enroll in ISTQB CTFL (40 Hours)</h5>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="alert alert-warning border-warning small mb-3">
+            <i class="bi bi-info-circle-fill me-1"></i> <strong>Pre-requisite:</strong> Knowledge of manual testing is
+            an added advantage. (Free primer provided for beginners).
+          </div>
+
+          <form id="modalEnrollForm">
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Candidate Name <span class="text-danger">*</span></label>
+              <input type="text" id="modal-name" class="form-control" placeholder="Your Full Name" required>
+            </div>
+            <div class="row g-2 mb-3">
+              <div class="col-sm-6">
+                <label class="form-label small fw-bold">Email Address <span class="text-danger">*</span></label>
+                <input type="email" id="modal-email" class="form-control" placeholder="your.email@example.com" required>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label small fw-bold">WhatsApp / Phone Number <span
+                    class="text-danger">*</span></label>
+                <input type="tel" id="modal-phone" class="form-control" placeholder="+91 98765 43210" required>
+              </div>
+            </div>
+            <div class="row g-2 mb-3">
+              <div class="col-sm-6">
+                <label class="form-label small fw-bold">Graduation Year</label>
+                <select id="modal-year" class="form-select">
+                  <option value="2026 (Final Year)">2026 (Final Year)</option>
+                  <option value="2025 Graduate" selected>2025 Graduate</option>
+                  <option value="2024 Graduate">2024 Graduate</option>
+                  <option value="2023 Graduate">2023 Graduate</option>
+                  <option value="Earlier">Earlier</option>
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label small fw-bold">Preferred Batch Track</label>
+                <select id="modal-batch" class="form-select">
+                  <option value="Weekday Fast-Track (4 Weeks, 40 Hrs)" selected>Weekday Fast-Track (4 Wks)</option>
+                  <option value="Weekend Intensive (6 Weeks, 42 Hrs)">Weekend Intensive (6 Wks)</option>
+                  <option value="1-on-1 Fast-Track Mentorship">1-on-1 Mentorship</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Manual Testing Background</label>
+              <select id="modal-knowledge" class="form-select">
+                <option value="Basic College Knowledge of Manual Testing" selected>I have basic college knowledge of
+                  manual testing (Added Advantage)</option>
+                <option value="Manual Testing Internship / Projects">I have done manual testing internship / project
+                </option>
+                <option value="Complete Beginner (Need Free 5-Hr Primer)">Complete Beginner (Need free 5-hr primer)
+                </option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary-custom w-100 py-3 justify-content-center mt-2">
+              <i class="bi bi-whatsapp me-2"></i> Submit & Forward to WhatsApp (+91 89399 15577) &rarr;
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Modal 2: Syllabus PDF Download Modal
+       ========================================================================== -->
+  <div class="modal fade" id="curriculumModal" tabindex="-1" aria-labelledby="curriculumModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow-xl rounded-4">
+        <div class="modal-header border-bottom bg-light">
+          <h5 class="modal-title fw-bold" id="curriculumModalLabel"><i
+              class="bi bi-file-earmark-pdf-fill text-danger me-2"></i>Download ISTQB CTFL v4.0 Syllabus</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="small text-muted">
+            Enter your details to receive the official 40-hour syllabus, chapter weightages, and instant access to
+            download <strong>ISTQB-CTFL-Curriculum.pdf</strong>. Details will also be dispatched to WhatsApp (+91 89399
+            15577).
+          </p>
+          <form id="syllabusDownloadForm">
+            <div class="mb-3">
+              <label class="form-label small fw-bold">Your Full Name <span class="text-danger">*</span></label>
+              <input type="text" id="syllabus-name" class="form-control" placeholder="Rahul Sharma" required>
+            </div>
+            <div class="row g-2 mb-3">
+              <div class="col-sm-6">
+                <label class="form-label small fw-bold">WhatsApp Number <span class="text-danger">*</span></label>
+                <input type="tel" id="syllabus-phone" class="form-control" placeholder="+91 98765 43210" required>
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label small fw-bold">Email Address <span class="text-danger">*</span></label>
+                <input type="email" id="syllabus-email" class="form-control" placeholder="rahul@example.com" required>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="form-label small fw-bold">Manual Testing Background</label>
+              <select id="syllabus-knowledge" class="form-select">
+                <option value="Basic College Knowledge of Manual Testing" selected>Basic Knowledge (Added Advantage)
+                </option>
+                <option value="Internship / Projects">Internship / Practical Projects</option>
+                <option value="Beginner (Zero Testing Experience)">Beginner (Need Free 5-Hr Primer)</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary-custom w-100 justify-content-center py-2">
+              <i class="bi bi-download me-2"></i> Download ISTQB-CTFL-Curriculum.pdf &rarr;
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Modal 3: Success Confirmation Modal with Celebration & Direct Download
+       ========================================================================== -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow-xl rounded-4 text-center p-4">
+        <div class="my-2">
+          <div class="rounded-circle bg-success text-white d-inline-flex p-3 fs-1 shadow-sm">
+            <i class="bi bi-check2-circle"></i>
+          </div>
+        </div>
+        <h3 class="fw-bold text-dark mb-1">Details Received & WhatsApp Dispatched!</h3>
+        <p class="text-secondary small mb-3">
+          Your complete enquiry details have been forwarded to our Admissions Office via WhatsApp (<strong>+91 89399
+            15577</strong>). Your official <strong>ISTQB CTFL Curriculum PDF</strong> download has also started
+          automatically!
+        </p>
+
+        <!-- Direct PDF Download Button -->
+        <a id="successPdfDownloadBtn" href="assets/ISTQB-CTFL-Curriculum.pdf" download="ISTQB-CTFL-Curriculum.pdf"
+          class="btn btn-primary-custom w-100 justify-content-center py-2 mb-2">
+          <i class="bi bi-file-earmark-arrow-down-fill me-2 fs-5"></i> Download ISTQB-CTFL-Curriculum.pdf
+        </a>
+
+        <!-- Direct WhatsApp Chat Link Button -->
+        <a id="successWhatsAppBtn" href="https://api.whatsapp.com/send?phone=918939915577" target="_blank"
+          class="btn btn-outline-success w-100 justify-content-center py-2 mb-3 fw-bold">
+          <i class="bi bi-whatsapp me-2 fs-5"></i> Continue Chat on WhatsApp (+91 89399 15577)
+        </a>
+
+        <div class="p-3 bg-light rounded-3 text-start mb-3 small border">
+          <div class="fw-bold text-dark mb-1"><i class="bi bi-gift-fill text-warning me-1"></i> What happens next:</div>
+          <div class="text-muted">&bull; The full ISTQB CTFL v4.0 Curriculum PDF is saved to your downloads</div>
+          <div class="text-muted">&bull; Our senior QA counselor will message/call to confirm batch slot and pricing
+          </div>
+          <div class="text-muted">&bull; You receive access to the free 5-Hour Manual Testing Foundation Primer</div>
+        </div>
+
+        <button type="button" class="btn btn-link text-muted text-decoration-none small w-100" data-bs-dismiss="modal">
+          Back to Course Overview
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5.3.3 JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
